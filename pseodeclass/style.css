@@ -1,0 +1,52 @@
+.hello:link {
+  color: burlywood;
+  font-size: 100px;
+  text-align: center;
+  background: rgb(69, 209, 252);
+}
+.hello:hover {
+  font-size: 150px;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hello:active {
+  color: brown;
+  background: #c90b0b;
+}
+
+.hello:visited {
+  color: rgb(255, 0, 0);
+}
+
+li:first-child a {
+  color: black;
+  background: #146579;
+  font-size: 30px;
+}
+
+li:last-child a {
+  color: aqua;
+  font-size: 30px;
+}
+
+li:nth-child(3n) {
+  color: chocolate;
+  font-size: 20px;
+}
+
+p:first-of-type {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p:last-of-type {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.lala:target {
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+}

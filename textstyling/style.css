@@ -1,0 +1,18 @@
+h1 {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: skyblue;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  line-height: 25px;
+  text-align: justify;
+  text-indent: 100px;
+  text-transform: capitalize;
+  letter-spacing: 1spx;
+  word-spacing: 1px;
+}
+a {
+  text-decoration: none;
+}
